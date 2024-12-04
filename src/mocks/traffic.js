@@ -3,268 +3,139 @@ import { progress } from "../utils";
 export const traffic = [
   {
     id: 0,
-    product: "Bento Matte 3D Illustration",
-    date: "25 Sep - 4 Oct",
-    image: "/images/content/product-pic-1.jpg",
-    image2x: "/images/content/product-pic-1@2x.jpg",
+    product: "Áo Thun Nam Cotton Basic",
+    date: "28/11/2024 - 04/12/2024",
+    image: "/api/placeholder/400/300",
+    image2x: "/api/placeholder/800/600",
     progress: progress(),
+    totalVisits: 150000,
+    conversionRate: "3.2%",
     items: [
       {
-        title: "Market",
+        title: "Google Search",
         color: "#FFBC99",
-        counter: 550000,
-        width: "20%",
+        counter: 55000,
+        width: "35%",
+        bounceRate: "45%"
       },
       {
-        title: "UI8",
+        title: "Facebook Ads",
         color: "#B1E5FC",
-        counter: 512350,
-        width: "20%",
+        counter: 42000,
+        width: "28%",
+        bounceRate: "52%"
+      },
+      {
+        title: "Direct Traffic",
+        color: "#B5E4CA",
+        counter: 35000,
+        width: "22%",
+        bounceRate: "38%"
       },
       {
         title: "Others",
         color: "#FFD88D",
-        counter: 498000,
-        width: "60%",
-      },
+        counter: 18000,
+        width: "15%",
+        bounceRate: "48%"
+      }
     ],
   },
   {
     id: 1,
-    product: "Node - Crypto iOS UI design kit",
-    date: "25 Sep - 4 Oct",
-    image: "/images/content/product-pic-2.jpg",
-    image2x: "/images/content/product-pic-2@2x.jpg",
+    product: "Giày Thể Thao Nike Air Max",
+    date: "28/11/2024 - 04/12/2024",
+    image: "/api/placeholder/400/300",
+    image2x: "/api/placeholder/800/600",
     progress: progress(),
+    totalVisits: 220000,
+    conversionRate: "4.5%",
     items: [
       {
-        title: "Market",
+        title: "Google Search",
         color: "#FFBC99",
-        counter: 550000,
-        width: "20%",
+        counter: 88000,
+        width: "40%",
+        bounceRate: "42%"
       },
       {
-        title: "Social media",
+        title: "Social Media",
         color: "#CABDFF",
-        counter: 320000,
-        width: "12%",
-      },
-      {
-        title: "Direct",
-        color: "#B5E4CA",
-        counter: 650550,
-        width: "30%",
-      },
-      {
-        title: "UI8",
-        color: "#B1E5FC",
-        counter: 512350,
+        counter: 44000,
         width: "20%",
+        bounceRate: "48%"
+      },
+      {
+        title: "Affiliate",
+        color: "#B5E4CA",
+        counter: 33000,
+        width: "15%",
+        bounceRate: "35%"
+      },
+      {
+        title: "Email Marketing",
+        color: "#B1E5FC",
+        counter: 33000,
+        width: "15%",
+        bounceRate: "40%"
       },
       {
         title: "Others",
         color: "#FFD88D",
-        counter: 498000,
-        width: "18%",
-      },
+        counter: 22000,
+        width: "10%",
+        bounceRate: "50%"
+      }
     ],
+    deviceStats: {
+      mobile: "65%",
+      desktop: "30%",
+      tablet: "5%"
+    }
   },
   {
     id: 2,
-    product: "TaskEz: Productivity App iOS UI Kit",
-    date: "25 Sep - 4 Oct",
-    image: "/images/content/product-pic-3.jpg",
-    image2x: "/images/content/product-pic-3@2x.jpg",
+    product: "Túi Xách Nữ Cao Cấp",
+    date: "28/11/2024 - 04/12/2024",
+    image: "/api/placeholder/400/300",
+    image2x: "/api/placeholder/800/600",
     progress: progress(),
+    totalVisits: 180000,
+    conversionRate: "3.8%",
     items: [
       {
-        title: "Social media",
+        title: "Instagram Ads",
         color: "#CABDFF",
-        counter: 320000,
-        width: "32%",
+        counter: 63000,
+        width: "35%",
+        bounceRate: "46%"
       },
       {
-        title: "Direct",
+        title: "Google Search",
         color: "#B5E4CA",
-        counter: 650550,
-        width: "30%",
+        counter: 45000,
+        width: "25%",
+        bounceRate: "40%"
       },
       {
-        title: "UI8",
+        title: "Referral",
         color: "#B1E5FC",
-        counter: 512350,
+        counter: 36000,
         width: "20%",
+        bounceRate: "43%"
       },
       {
         title: "Others",
         color: "#FFD88D",
-        counter: 498000,
-        width: "18%",
-      },
-    ],
-  },
-  {
-    id: 3,
-    product: "Bento Matte 3D Illustration",
-    date: "25 Sep - 4 Oct",
-    image: "/images/content/product-pic-4.jpg",
-    image2x: "/images/content/product-pic-4@2x.jpg",
-    progress: progress(),
-    items: [
-      {
-        title: "Direct",
-        color: "#B5E4CA",
-        counter: 650550,
-        width: "30%",
-      },
-      {
-        title: "UI8",
-        color: "#B1E5FC",
-        counter: 512350,
+        counter: 36000,
         width: "20%",
-      },
-      {
-        title: "Others",
-        color: "#FFD88D",
-        counter: 498000,
-        width: "50%",
-      },
+        bounceRate: "49%"
+      }
     ],
-  },
-  {
-    id: 4,
-    product: "Academe 3D Education Icons",
-    date: "25 Sep - 4 Oct",
-    image: "/images/content/product-pic-5.jpg",
-    image2x: "/images/content/product-pic-5@2x.jpg",
-    progress: progress(),
-    items: [
-      {
-        title: "Market",
-        color: "#FFBC99",
-        counter: 550000,
-        width: "40%",
-      },
-      {
-        title: "Social media",
-        color: "#CABDFF",
-        counter: 320000,
-        width: "12%",
-      },
-      {
-        title: "Direct",
-        color: "#B5E4CA",
-        counter: 650550,
-        width: "30%",
-      },
-      {
-        title: "Others",
-        color: "#FFD88D",
-        counter: 498000,
-        width: "18%",
-      },
-    ],
-  },
-  {
-    id: 5,
-    product: "Bento Matte 3D Illustration",
-    date: "25 Sep - 4 Oct",
-    image: "/images/content/product-pic-6.jpg",
-    image2x: "/images/content/product-pic-6@2x.jpg",
-    progress: progress(),
-    items: [
-      {
-        title: "Market",
-        color: "#FFBC99",
-        counter: 550000,
-        width: "20%",
-      },
-      {
-        title: "UI8",
-        color: "#B1E5FC",
-        counter: 512350,
-        width: "20%",
-      },
-      {
-        title: "Others",
-        color: "#FFD88D",
-        counter: 498000,
-        width: "60%",
-      },
-    ],
-  },
-  {
-    id: 6,
-    product: "DSM - Geometry pattern",
-    date: "25 Sep - 4 Oct",
-    image: "/images/content/product-pic-1.jpg",
-    image2x: "/images/content/product-pic-1@2x.jpg",
-    progress: progress(),
-    items: [
-      {
-        title: "Market",
-        color: "#FFBC99",
-        counter: 550000,
-        width: "20%",
-      },
-      {
-        title: "Social media",
-        color: "#CABDFF",
-        counter: 320000,
-        width: "12%",
-      },
-      {
-        title: "Direct",
-        color: "#B5E4CA",
-        counter: 650550,
-        width: "30%",
-      },
-      {
-        title: "UI8",
-        color: "#B1E5FC",
-        counter: 512350,
-        width: "20%",
-      },
-      {
-        title: "Others",
-        color: "#FFD88D",
-        counter: 498000,
-        width: "18%",
-      },
-    ],
-  },
-  {
-    id: 7,
-    product: "Node - Crypto iOS UI design kit",
-    date: "25 Sep - 4 Oct",
-    image: "/images/content/product-pic-2.jpg",
-    image2x: "/images/content/product-pic-2@2x.jpg",
-    progress: progress(),
-    items: [
-      {
-        title: "Social media",
-        color: "#CABDFF",
-        counter: 320000,
-        width: "32%",
-      },
-      {
-        title: "Direct",
-        color: "#B5E4CA",
-        counter: 650550,
-        width: "30%",
-      },
-      {
-        title: "UI8",
-        color: "#B1E5FC",
-        counter: 512350,
-        width: "20%",
-      },
-      {
-        title: "Others",
-        color: "#FFD88D",
-        counter: 498000,
-        width: "18%",
-      },
-    ],
-  },
+    peakHours: {
+      morning: "20%",
+      afternoon: "35%",
+      evening: "45%"
+    }
+  }
 ];

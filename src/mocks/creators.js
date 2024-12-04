@@ -1,7 +1,7 @@
 export const creators = [
   {
     id: 0,
-    creator: "Reed Parker",
+    creator: "Thời Trang MINX",
     avatar: "/images/content/avatar-1.jpg",
     colorNumber: "#B5E4CA",
     productsCounter: 16,
@@ -47,7 +47,7 @@ export const creators = [
   },
   {
     id: 1,
-    creator: "Tristian Hermiston",
+    creator: "Phụ Kiện DigiWorld",
     avatar: "/images/content/avatar-2.jpg",
     colorNumber: "#FFD88D",
     productsCounter: 34,
@@ -93,7 +93,7 @@ export const creators = [
   },
   {
     id: 2,
-    creator: "Rosetta Gottlieb",
+    creator: "Beauty House",
     avatar: "/images/content/avatar-3.jpg",
     colorNumber: "#CABDFF",
     productsCounter: 9,
@@ -139,7 +139,7 @@ export const creators = [
   },
   {
     id: 3,
-    creator: "Nicola Gislason",
+    creator: "Giày Thể Thao Sport",
     avatar: "/images/content/avatar-4.jpg",
     productsCounter: 22,
     followers: 1211,
@@ -184,7 +184,7 @@ export const creators = [
   },
   {
     id: 4,
-    creator: "Hester Grady",
+    creator: "Đồ Gia Dụng HomePro",
     avatar: "/images/content/avatar-5.jpg",
     productsCounter: 31,
     followers: 9832,

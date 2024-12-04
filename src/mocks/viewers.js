@@ -3,178 +3,113 @@ import { progress } from "../utils";
 export const viewers = [
   {
     id: 0,
-    product: "Bento Matte 3D Illustration",
-    date: "25 Sep - 4 Oct",
-    image: "/images/content/product-pic-1.jpg",
-    image2x: "/images/content/product-pic-1@2x.jpg",
+    product: "Áo Thun Nam Cotton Basic",
+    date: "28/11/2024 - 04/12/2024",
+    image: "/api/placeholder/400/300",
+    image2x: "/api/placeholder/800/600",
     progress: progress(),
+    totalViews: 55000,
+    conversionRate: "2.8%",
     items: [
       {
-        title: "Followers",
+        title: "Khách hàng thân thiết",
         color: "#B5E4CA",
-        counter: 550000,
-        width: "30%",
+        counter: 22000,
+        width: "40%",
+        averageTime: "4:30",
+        purchaseRate: "3.5%"
       },
       {
-        title: "Others",
+        title: "Khách mới",
         color: "#CABDFF",
-        counter: 854350,
-        width: "70%",
-      },
+        counter: 33000,
+        width: "60%",
+        averageTime: "2:45",
+        purchaseRate: "1.8%"
+      }
     ],
+    engagement: {
+      addToCart: 2800,
+      wishlist: 1500,
+      reviews: 320
+    }
   },
   {
     id: 1,
-    product: "DSM - Geometry pattern",
-    date: "25 Sep - 4 Oct",
-    image: "/images/content/product-pic-2.jpg",
-    image2x: "/images/content/product-pic-2@2x.jpg",
+    product: "Giày Thể Thao Nike Air Max",
+    date: "28/11/2024 - 04/12/2024",
+    image: "/api/placeholder/400/300",
+    image2x: "/api/placeholder/800/600",
     progress: progress(),
+    totalViews: 78000,
+    conversionRate: "3.2%",
     items: [
       {
-        title: "Followers",
+        title: "Khách hàng thân thiết",
         color: "#B5E4CA",
-        counter: 550000,
+        counter: 46800,
         width: "60%",
+        averageTime: "5:15",
+        purchaseRate: "4.2%"
       },
       {
-        title: "Others",
+        title: "Khách mới",
         color: "#CABDFF",
-        counter: 412350,
+        counter: 31200,
         width: "40%",
-      },
+        averageTime: "3:20",
+        purchaseRate: "2.1%"
+      }
     ],
+    engagement: {
+      addToCart: 3900,
+      wishlist: 2200,
+      reviews: 450
+    }
   },
   {
     id: 2,
-    product: "Node - Crypto iOS UI design kit",
-    date: "25 Sep - 4 Oct",
-    image: "/images/content/product-pic-3.jpg",
-    image2x: "/images/content/product-pic-3@2x.jpg",
+    product: "Túi Xách Nữ Cao Cấp",
+    date: "28/11/2024 - 04/12/2024",
+    image: "/api/placeholder/400/300",
+    image2x: "/api/placeholder/800/600",
     progress: progress(),
+    totalViews: 45000,
+    conversionRate: "2.5%",
     items: [
       {
-        title: "Followers",
+        title: "Khách hàng thân thiết",
         color: "#B5E4CA",
-        counter: 550000,
+        counter: 20250,
         width: "45%",
+        averageTime: "4:50",
+        purchaseRate: "3.8%"
       },
       {
-        title: "Others",
+        title: "Khách mới",
         color: "#CABDFF",
-        counter: 612350,
+        counter: 24750,
         width: "55%",
-      },
+        averageTime: "3:10",
+        purchaseRate: "1.5%"
+      }
     ],
-  },
-  {
-    id: 3,
-    product: "TaskEz: Productivity App iOS UI Kit",
-    date: "25 Sep - 4 Oct",
-    image: "/images/content/product-pic-4.jpg",
-    image2x: "/images/content/product-pic-4@2x.jpg",
-    progress: progress(),
-    items: [
-      {
-        title: "Followers",
-        color: "#B5E4CA",
-        counter: 550000,
-        width: "30%",
+    engagement: {
+      addToCart: 2200,
+      wishlist: 1800,
+      reviews: 280
+    },
+    demographics: {
+      gender: {
+        female: "75%",
+        male: "25%"
       },
-      {
-        title: "Others",
-        color: "#CABDFF",
-        counter: 854350,
-        width: "70%",
-      },
-    ],
-  },
-  {
-    id: 4,
-    product: "Academe 3D Education Icons",
-    date: "25 Sep - 4 Oct",
-    image: "/images/content/product-pic-5.jpg",
-    image2x: "/images/content/product-pic-5@2x.jpg",
-    progress: progress(),
-    items: [
-      {
-        title: "Followers",
-        color: "#B5E4CA",
-        counter: 550000,
-        width: "80%",
-      },
-      {
-        title: "Others",
-        color: "#CABDFF",
-        counter: 95350,
-        width: "20%",
-      },
-    ],
-  },
-  {
-    id: 5,
-    product: "DSM - Geometry pattern",
-    date: "25 Sep - 4 Oct",
-    image: "/images/content/product-pic-6.jpg",
-    image2x: "/images/content/product-pic-6@2x.jpg",
-    progress: progress(),
-    items: [
-      {
-        title: "Followers",
-        color: "#B5E4CA",
-        counter: 550000,
-        width: "30%",
-      },
-      {
-        title: "Others",
-        color: "#CABDFF",
-        counter: 854350,
-        width: "70%",
-      },
-    ],
-  },
-  {
-    id: 6,
-    product: "Node - Crypto iOS UI design kit",
-    date: "25 Sep - 4 Oct",
-    image: "/images/content/product-pic-1.jpg",
-    image2x: "/images/content/product-pic-1@2x.jpg",
-    progress: progress(),
-    items: [
-      {
-        title: "Followers",
-        color: "#B5E4CA",
-        counter: 550000,
-        width: "60%",
-      },
-      {
-        title: "Others",
-        color: "#CABDFF",
-        counter: 412350,
-        width: "40%",
-      },
-    ],
-  },
-  {
-    id: 7,
-    product: "TaskEz: Productivity App iOS UI Kit",
-    date: "25 Sep - 4 Oct",
-    image: "/images/content/product-pic-2.jpg",
-    image2x: "/images/content/product-pic-2@2x.jpg",
-    progress: progress(),
-    items: [
-      {
-        title: "Followers",
-        color: "#B5E4CA",
-        counter: 550000,
-        width: "45%",
-      },
-      {
-        title: "Others",
-        color: "#CABDFF",
-        counter: 612350,
-        width: "55%",
-      },
-    ],
-  },
+      ageGroups: {
+        "18-24": "15%",
+        "25-34": "45%",
+        "35-44": "30%",
+        "45+": "10%"
+      }
+    }
+  }
 ];

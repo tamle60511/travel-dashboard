@@ -2,158 +2,138 @@ import { progress } from "../utils";
 
 export const posts = [
   {
-    title:
-      'Hurry up! You got 50% off – all items <span role="img" aria-label="fire">🔥</span>',
-    image: "/images/content/post-pic-1.jpg",
-    image2x: "/images/content/post-pic-1@2x.jpg",
-    picture: true,
+    title: 'FLASH SALE CUỐI NĂM 🔥 Giảm đến 70% toàn bộ sản phẩm',
+    description: 'Săn deal 12.12 siêu hời - Freeship toàn quốc - Voucher giảm thêm 100K',
+    image: "/api/placeholder/400/300",
+    image2x: "/api/placeholder/800/600",
+    type: "promotion",
+    schedule: "2024-12-12",
     distribution: 1.2,
     socials: [
       {
         title: "facebook",
-        url: "https://www.facebook.com/ui8.net/",
+        url: "https://www.facebook.com/shop",
       },
       {
-        title: "twitter",
-        url: "https://twitter.com/ui8",
+        title: "tiktok",
+        url: "https://www.tiktok.com/@shop",
       },
     ],
     linkClicks: {
-      counter: 26,
+      counter: 2600,
       balance: 37.8,
       progress: progress(),
     },
     views: {
-      counter: 256,
+      counter: 25600,
       balance: 17.8,
       progress: progress(),
     },
     engagement: {
-      counter: 15,
-      balance: -37.8,
+      counter: 1500,
+      balance: 22.5,
       progress: progress(),
     },
+    products: [
+      {
+        id: "SP001",
+        name: "Áo Thun Nam",
+        discount: 50
+      },
+      {
+        id: "SP002",
+        name: "Váy Đầm Nữ",
+        discount: 70
+      }
+    ]
   },
   {
-    title: "HTML version has been released",
-    image: "/images/content/post-pic-2.jpg",
-    image2x: "/images/content/post-pic-2@2x.jpg",
+    title: 'Bộ sưu tập mới WINTER 2024 đã về 🎄',
+    description: 'BST với hơn 100 mẫu thời trang mới nhất cho mùa đông năm nay',
+    image: "/api/placeholder/400/300",
+    image2x: "/api/placeholder/800/600",
+    type: "new_collection",
     video: true,
     distribution: 1.6,
     socials: [
       {
-        title: "twitter",
-        url: "https://twitter.com/ui8",
+        title: "facebook",
+        url: "https://www.facebook.com/shop",
       },
+      {
+        title: "instagram",
+        url: "https://www.instagram.com/shop",
+      }
     ],
     linkClicks: {
-      counter: 16,
+      counter: 1600,
       balance: 24.5,
       progress: progress(),
     },
     views: {
-      counter: 334,
-      balance: -1.8,
+      counter: 33400,
+      balance: 28.8,
       progress: progress(),
     },
     engagement: {
-      counter: 15,
-      balance: +12.9,
+      counter: 1500,
+      balance: 12.9,
       progress: progress(),
     },
+    products: [
+      {
+        id: "SP003",
+        name: "Áo Khoác Dạ",
+        newPrice: 899000
+      },
+      {
+        id: "SP004",
+        name: "Quần Len",
+        newPrice: 499000
+      }
+    ]
   },
   {
-    title:
-      'Hurry up! You got 50% off – all items <span role="img" aria-label="fire">🔥</span>',
-    image: "/images/content/post-pic-3.jpg",
-    image2x: "/images/content/post-pic-3@2x.jpg",
-    picture: true,
-    distribution: -1.5,
+    title: 'Chương trình "Khách hàng thân thiết" 💝',
+    description: 'Tích điểm gấp đôi - Đổi quà không giới hạn từ 1/12 - 31/12',
+    image: "/api/placeholder/400/300",
+    image2x: "/api/placeholder/800/600",
+    type: "loyalty",
+    distribution: 1.5,
     socials: [
       {
         title: "facebook",
-        url: "https://www.facebook.com/ui8.net/",
+        url: "https://www.facebook.com/shop",
       },
       {
-        title: "twitter",
-        url: "https://twitter.com/ui8",
-      },
+        title: "zalo",
+        url: "https://zalo.me/shop",
+      }
     ],
     linkClicks: {
-      counter: 123,
-      balance: -14.5,
-      progress: progress(),
-    },
-    views: {
-      counter: 98,
-      balance: -12.8,
-      progress: progress(),
-    },
-    engagement: {
-      counter: 25,
-      balance: +1.8,
-      progress: progress(),
-    },
-  },
-  {
-    title: "HTML version has been released",
-    image: "/images/content/post-pic-4.jpg",
-    image2x: "/images/content/post-pic-4@2x.jpg",
-    video: true,
-    distribution: 1.9,
-    socials: [
-      {
-        title: "twitter",
-        url: "https://twitter.com/ui8",
-      },
-    ],
-    linkClicks: {
-      counter: 16,
-      balance: 24.5,
-      progress: progress(),
-    },
-    views: {
-      counter: 334,
-      balance: -1.8,
-      progress: progress(),
-    },
-    engagement: {
-      counter: 15,
-      balance: +12.9,
-      progress: progress(),
-    },
-  },
-  {
-    title:
-      'Hurry up! You got 50% off – all items <span role="img" aria-label="fire">🔥</span>',
-    image: "/images/content/post-pic-5.jpg",
-    image2x: "/images/content/post-pic-5@2x.jpg",
-    picture: true,
-    distribution: -1.1,
-    socials: [
-      {
-        title: "facebook",
-        url: "https://www.facebook.com/ui8.net/",
-      },
-      {
-        title: "twitter",
-        url: "https://twitter.com/ui8",
-      },
-    ],
-    linkClicks: {
-      counter: 55,
+      counter: 1230,
       balance: 14.5,
       progress: progress(),
     },
     views: {
-      counter: 78,
+      counter: 9800,
       balance: 12.8,
       progress: progress(),
     },
     engagement: {
-      counter: -25,
-      balance: +1.8,
+      counter: 2500,
+      balance: 18.2,
       progress: progress(),
     },
-  },
+    rewards: [
+      {
+        points: 1000,
+        gift: "Voucher 100K"
+      },
+      {
+        points: 2000,
+        gift: "Voucher 250K"
+      }
+    ]
+  }
 ];

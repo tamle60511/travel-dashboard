@@ -8,17 +8,17 @@ const socials = [
   {
     title: "Facebook",
     icon: "facebook",
-    url: "https://www.facebook.com/ui8.net/",
+    url: "https://www.facebook.com/",
   },
   {
     title: "Twitter",
     icon: "twitter",
-    url: "https://twitter.com/ui8",
+    url: "https://twitter.com/",
   },
   {
     title: "Instagram",
     icon: "instagram",
-    url: "https://www.instagram.com/ui8net/",
+    url: "https://www.instagram.com/",
   },
 ];
 
