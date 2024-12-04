@@ -20,9 +20,9 @@ const Panel = ({ onClose, download, title, galleryPanel }) => {
       </div>
       <div className={styles.title}>{title}</div>
       <div className={styles.control}>
-        <button className={styles.link}>
+        {/* <button className={styles.link}>
           <Icon name="link" size="20" />
-        </button>
+        </button> */}
         <button className={styles.close} onClick={onClose}>
           <Icon name="close" size="20" />
         </button>
