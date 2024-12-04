@@ -1,109 +1,95 @@
 export const followers = [
   {
     id: 0,
-    man: "Reed Parker",
-    avatar: "/images/content/avatar-1.jpg",
-    products: 16,
-    followers: 3568,
+    name: "Thời Trang Nam 360",
+    avatar: "/api/placeholder/32/32",
+    products: 168,
+    followers: 15680,
+    rating: 4.8,
+    memberSince: "2020",
     gallery: [
       {
-        image: "/images/content/product-pic-1.jpg",
-        image2x: "/images/content/product-pic-1@2x.jpg",
+        image: "/api/placeholder/400/300",
+        image2x: "/api/placeholder/800/600",
+        title: "Áo Sơ Mi Nam",
+        price: "449.000₫"
       },
       {
-        image: "/images/content/product-pic-2.jpg",
-        image2x: "/images/content/product-pic-2@2x.jpg",
+        image: "/api/placeholder/400/300",
+        image2x: "/api/placeholder/800/600",
+        title: "Quần Jeans",
+        price: "549.000₫"
       },
       {
-        image: "/images/content/product-pic-3.jpg",
-        image2x: "/images/content/product-pic-3@2x.jpg",
-      },
+        image: "/api/placeholder/400/300",
+        image2x: "/api/placeholder/800/600",
+        title: "Áo Khoác",
+        price: "649.000₫"
+      }
     ],
+    badges: ["Mall", "Yêu thích+"],
+    responseRate: "98%",
   },
   {
     id: 1,
-    man: "Tristian Hermiston",
-    avatar: "/images/content/avatar-2.jpg",
-    products: 32,
-    followers: 2345,
+    name: "Beauty House Official",
+    avatar: "/api/placeholder/32/32",
+    products: 245,
+    followers: 23450,
+    rating: 4.9,
+    memberSince: "2019",
     gallery: [
       {
-        image: "/images/content/product-pic-4.jpg",
-        image2x: "/images/content/product-pic-4@2x.jpg",
+        image: "/api/placeholder/400/300",
+        image2x: "/api/placeholder/800/600",
+        title: "Kem Chống Nắng",
+        price: "289.000₫"
       },
       {
-        image: "/images/content/product-pic-5.jpg",
-        image2x: "/images/content/product-pic-5@2x.jpg",
+        image: "/api/placeholder/400/300",
+        image2x: "/api/placeholder/800/600",
+        title: "Son Môi",
+        price: "199.000₫"
       },
       {
-        image: "/images/content/product-pic-1.jpg",
-        image2x: "/images/content/product-pic-1@2x.jpg",
-      },
+        image: "/api/placeholder/400/300",
+        image2x: "/api/placeholder/800/600",
+        title: "Nước Tẩy Trang",
+        price: "159.000₫"
+      }
     ],
+    badges: ["Mall", "Yêu thích++"],
+    responseRate: "95%",
   },
   {
     id: 2,
-    man: "Rosetta Gottlieb",
-    avatar: "/images/content/avatar-3.jpg",
-    products: 8,
-    followers: 980,
-    message: true,
+    name: "DigiWorld Store",
+    avatar: "/api/placeholder/32/32",
+    products: 89,
+    followers: 9800,
+    rating: 4.7,
+    memberSince: "2021",
     gallery: [
       {
-        image: "/images/content/product-pic-2.jpg",
-        image2x: "/images/content/product-pic-2@2x.jpg",
+        image: "/api/placeholder/400/300",
+        image2x: "/api/placeholder/800/600",
+        title: "Tai Nghe Bluetooth",
+        price: "890.000₫"
       },
       {
-        image: "/images/content/product-pic-4.jpg",
-        image2x: "/images/content/product-pic-4@2x.jpg",
+        image: "/api/placeholder/400/300",
+        image2x: "/api/placeholder/800/600",
+        title: "Sạc Dự Phòng",
+        price: "450.000₫"
       },
       {
-        image: "/images/content/product-pic-3.jpg",
-        image2x: "/images/content/product-pic-3@2x.jpg",
-      },
+        image: "/api/placeholder/400/300",
+        image2x: "/api/placeholder/800/600",
+        title: "Ốp Lưng",
+        price: "150.000₫"
+      }
     ],
-  },
-  {
-    id: 3,
-    man: "Reed Parker",
-    avatar: "/images/content/avatar-1.jpg",
-    products: 16,
-    followers: 3568,
-    gallery: [
-      {
-        image: "/images/content/product-pic-1.jpg",
-        image2x: "/images/content/product-pic-1@2x.jpg",
-      },
-      {
-        image: "/images/content/product-pic-2.jpg",
-        image2x: "/images/content/product-pic-2@2x.jpg",
-      },
-      {
-        image: "/images/content/product-pic-3.jpg",
-        image2x: "/images/content/product-pic-3@2x.jpg",
-      },
-    ],
-  },
-  {
-    id: 4,
-    man: "Tristian Hermiston",
-    avatar: "/images/content/avatar-2.jpg",
-    products: 32,
-    followers: 2345,
-    message: true,
-    gallery: [
-      {
-        image: "/images/content/product-pic-4.jpg",
-        image2x: "/images/content/product-pic-4@2x.jpg",
-      },
-      {
-        image: "/images/content/product-pic-5.jpg",
-        image2x: "/images/content/product-pic-5@2x.jpg",
-      },
-      {
-        image: "/images/content/product-pic-1.jpg",
-        image2x: "/images/content/product-pic-1@2x.jpg",
-      },
-    ],
-  },
+    badges: ["Mall"],
+    responseRate: "97%",
+  }
 ];
