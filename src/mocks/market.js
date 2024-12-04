@@ -5,8 +5,8 @@ export const market = [
     id: 0,
     product: "Áo Thun Nam Cotton Basic",
     category: "Thời trang nam",
-    image: "/api/placeholder/400/300",
-    image2x: "/api/placeholder/800/600",
+   image: "/images/content/product-pic-1.jpg",
+    image2x: "/images/content/product-pic-1@2x.jpg",
     status: true,
     price: 199000,
     sales: 1200,
@@ -21,8 +21,8 @@ export const market = [
     id: 1,
     product: "Túi Xách Nữ Thời Trang",
     category: "Phụ kiện nữ",
-    image: "/api/placeholder/400/300",
-    image2x: "/api/placeholder/800/600",
+   image: "/images/content/product-pic-2.jpg",
+    image2x: "/images/content/product-pic-2@2x.jpg",
     status: false,
     price: 449000,
     sales: 732,
@@ -33,7 +33,7 @@ export const market = [
     likes: 1247,
     inventory: 150,
   },
-  // Thêm các sản phẩm khác tương tự...
+
 ];
 
 export const released = [
@@ -41,8 +41,8 @@ export const released = [
     id: 0,
     product: "Điện Thoại Samsung Galaxy S24",
     category: "Điện thoại & Máy tính bảng",
-    image: "/api/placeholder/400/300",
-    image2x: "/api/placeholder/800/600",
+   image: "/images/content/product-pic-3.jpg",
+    image2x: "/images/content/product-pic-3@2x.jpg",
     price: 22990000,
     status: true,
     ratingValue: 4.8,
@@ -58,8 +58,8 @@ export const released = [
     id: 1,
     product: "Laptop Gaming Asus ROG 2024",
     category: "Máy tính & Laptop",
-    image: "/api/placeholder/400/300",
-    image2x: "/api/placeholder/800/600",
+   image: "/images/content/product-pic-4.jpg",
+    image2x: "/images/content/product-pic-4@2x.jpg",
     price: 32990000,
     status: true,
     ratingValue: 4.9,

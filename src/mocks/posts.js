@@ -4,8 +4,8 @@ export const posts = [
   {
     title: 'FLASH SALE CUỐI NĂM 🔥 Giảm đến 70% toàn bộ sản phẩm',
     description: 'Săn deal 12.12 siêu hời - Freeship toàn quốc - Voucher giảm thêm 100K',
-    image: "/api/placeholder/400/300",
-    image2x: "/api/placeholder/800/600",
+    image: "/images/content/post-pic-2.jpg",
+    image2x: "/images/content/post-pic-2@2x.jpg",
     type: "promotion",
     schedule: "2024-12-12",
     distribution: 1.2,
@@ -50,8 +50,8 @@ export const posts = [
   {
     title: 'Bộ sưu tập mới WINTER 2024 đã về 🎄',
     description: 'BST với hơn 100 mẫu thời trang mới nhất cho mùa đông năm nay',
-    image: "/api/placeholder/400/300",
-    image2x: "/api/placeholder/800/600",
+    image: "/images/content/post-pic-2.jpg",
+    image2x: "/images/content/post-pic-2@2x.jpg",
     type: "new_collection",
     video: true,
     distribution: 1.6,
@@ -96,8 +96,8 @@ export const posts = [
   {
     title: 'Chương trình "Khách hàng thân thiết" 💝',
     description: 'Tích điểm gấp đôi - Đổi quà không giới hạn từ 1/12 - 31/12',
-    image: "/api/placeholder/400/300",
-    image2x: "/api/placeholder/800/600",
+    image: "/images/content/post-pic-3.jpg",
+    image2x: "/images/content/post-pic-3@2x.jpg",
     type: "loyalty",
     distribution: 1.5,
     socials: [

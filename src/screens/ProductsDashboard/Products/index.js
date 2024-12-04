@@ -26,7 +26,7 @@ const indicatorsTraffic = [
     color: "#B5E4CA",
   },
   {
-    title: "UI8",
+    title: "Google",
     color: "#B1E5FC",
   },
   {
