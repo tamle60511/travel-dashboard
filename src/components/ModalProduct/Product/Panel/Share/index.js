@@ -6,20 +6,20 @@ import Icon from "../../../../Icon";
 const socials = [
   {
     icon: "facebook",
-    url: "https://www.facebook.com/ui8.net/",
+    url: "https://www.facebook.com//",
   },
   {
     icon: "twitter",
-    url: "https://twitter.com/ui8",
+    url: "https://twitter.com/",
   },
   {
     icon: "instagram",
-    url: "https://www.instagram.com/ui8net/",
+    url: "https://www.instagram.com/",
   },
 ];
 
 const Share = () => {
-  const [value, setValue] = useState("https://ui8.net/feel-travel");
+  const [value, setValue] = useState("");
   return (
     <div className={styles.share}>
       <div className={styles.head}>
